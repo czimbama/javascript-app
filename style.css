@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 750px;
+    height: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #344961;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.text {
+    text-align: center;
+    text-decoration-color: black;
+}
+
+.getLyrics {
+    background-color: rgb(137, 185, 239); 
+    color: rgb(0, 0, 0); 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.getLyrics:hover {
+    background-color: darkblue; 
+}
+
+.artist {
+    font-family: serif;
+}
